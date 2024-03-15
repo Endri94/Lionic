@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lionic</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header" id="home">
+    <div class="container flex header__container">
+      <a href="#" class="header__logo">
+        <img src="img/logo.svg" alt="Logo">
+      </a>
+      <nav class="nav header__nav" title="Главное меню">
+        <ul class="nav__list list-reset flex">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#articles" class="nav__link">Articles</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+          <li class="nav__item"><a href="#join" class="nav__link">Join Us</a></li>
+        </ul>
+      </nav>
+      <button class="header__btn btn btn-reset">Free Trial</button>
+      <button class="btn-reset burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content flex">
+          <h1 class="hero__title">
+            This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online
+          </h1>
+          <p class="hero__descr">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+            ut&nbsp;laoreet dolore.
+          </p>
+          <div class="hero__wrapper">
+            <button class="hero__btn btn btn-reset">Free 30 day trial</button>
+            <span class="hero__secure">SSL secured connection</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services section-offset" id="services">
+      <div class="container">
+        <h2 class="services-title section-title">Services</h2>
+        <p class="services-descr section-descr">Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your
+          end-of-life plans.</p>
+        <ul class="services-list list-reset flex">
+          <li class="services-item flex">
+            <svg class="services-item-icon" width="42" height="42" view-box="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M31.1251 0.00276999C24.9762 -0.134685 19.8546 4.86079 19.7026 11.1443L19.626 14.3077C19.605 15.1706 20.2789 15.8922 21.1232 15.9113C21.9676 15.9297 22.6754 15.2393 22.6958 14.3764L22.773 11.213C22.883 6.66362 26.597 3.04078 31.0497 3.14006C35.5012 3.23997 39.0361 7.02444 38.9261 11.5738C38.8156 16.1226 35.1016 19.746 30.6495 19.6461L11.4259 19.2166C5.27709 19.0791 0.155431 24.0746 0.0034861 30.3581C-0.149077 36.6416 4.7249 41.8604 10.8744 41.9972C17.0232 42.1347 22.1449 37.1398 22.2968 30.8564L22.3728 27.728C22.3938 26.8644 21.7199 26.1434 20.8756 26.1243C20.0312 26.1052 19.3234 26.7963 19.3024 27.6593L19.2264 30.7876C19.1165 35.337 15.4024 38.9598 10.9497 38.8606C6.49821 38.7607 2.96333 34.9762 3.07327 30.4268C3.18383 25.8774 6.89784 22.2546 11.35 22.3539L30.5735 22.7834C36.7229 22.9209 41.844 17.926 41.9965 11.6425C42.1485 5.35843 37.2745 0.140225 31.1257 0.00340636L31.1251 0.00276999Z" fill="none"/>
+              </svg>
+            <h3 class="services-item-title">
+              Your Legacy
+            </h3>
+            <p class="services-item-descr">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services-item flex">
+            <svg class="services-item-icon" width="56" height="42" view-box="0 0 56 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M51.8469 13.3035C51.8469 14.658 51.6476 15.981 51.2634 17.2397H54.6117C55.3781 17.2397 56 17.8677 56 18.6414C56 19.4158 55.3781 20.0425 54.6117 20.0425H50.4456C50.314 20.0425 50.1871 20.0241 50.0666 19.99C49.4918 20.9831 48.7923 21.8974 47.9855 22.7102L29.2841 41.5892C29.1552 41.7194 29.0022 41.8228 28.8336 41.8933C28.665 41.9638 28.4843 42.0001 28.3018 42.0001C28.1193 42.0001 27.9386 41.9638 27.77 41.8933C27.6015 41.8228 27.4484 41.7194 27.3195 41.5892L8.61684 22.7102C7.94177 22.0295 7.34201 21.2769 6.82809 20.4658C6.71674 20.4947 6.60019 20.5104 6.47907 20.5104H1.38828C1.2058 20.5103 1.02514 20.4739 0.856609 20.4033C0.688083 20.3328 0.534992 20.2295 0.406079 20.0993C0.277165 19.9692 0.174953 19.8147 0.105278 19.6447C0.0356027 19.4747 -0.000170493 19.2926 6.10902e-07 19.1087C6.10902e-07 18.3343 0.621861 17.7069 1.38828 17.7069H5.50037C3.88419 13.0338 4.92279 7.6243 8.61684 3.8968C9.83682 2.65789 11.2888 1.67547 12.8885 1.00654C14.4881 0.337602 16.2037 -0.00453166 17.9356 -1.3421e-05C21.4558 -1.3421e-05 24.7663 1.38402 27.2551 3.8968L28.3015 4.95271L29.3479 3.89614C30.568 2.65728 32.0201 1.67493 33.6199 1.00611C35.2197 0.337283 36.9354 -0.0047045 38.6673 -1.3421e-05C40.3993 -0.00449534 42.1148 0.337655 43.7145 1.00659C45.3142 1.67552 46.7661 2.65792 47.9861 3.8968C49.2143 5.13001 50.1878 6.59625 50.8505 8.21081C51.5131 9.82538 51.8518 11.5563 51.8469 13.3035V13.3035ZM46.0229 5.87802C45.0596 4.90018 43.9133 4.12483 42.6504 3.59693C41.3876 3.06904 40.0332 2.79912 38.666 2.80283C37.2991 2.7993 35.945 3.0693 34.6823 3.59719C33.4197 4.12507 32.2736 4.90034 31.3105 5.87802L29.2821 7.92552C29.1534 8.05574 29.0004 8.15907 28.832 8.22957C28.6635 8.30008 28.4829 8.33637 28.3005 8.33637C28.1181 8.33637 27.9375 8.30008 27.7691 8.22957C27.6006 8.15907 27.4476 8.05574 27.3189 7.92552L25.2912 5.87802C24.328 4.90032 23.1817 4.12505 21.919 3.59716C20.6562 3.06928 19.3021 2.79928 17.935 2.80283C16.568 2.79919 15.2139 3.06914 13.9512 3.59704C12.6886 4.12493 11.5425 4.90025 10.5794 5.87802C7.27544 9.21374 6.6627 14.2524 8.74186 18.2195H18.3862L21.8387 10.8143C21.9982 10.4731 22.3199 10.2598 22.7197 10.2788C22.9025 10.2876 23.0786 10.3508 23.2258 10.4603C23.373 10.5699 23.4846 10.7209 23.5467 10.8944L28.6844 25.2571L32.9111 13.2352C32.9725 13.0598 33.0847 12.907 33.233 12.7963C33.3814 12.6857 33.5593 12.6224 33.7437 12.6145C33.9281 12.6065 34.1106 12.6544 34.2678 12.752C34.425 12.8495 34.5496 12.9922 34.6256 13.1617L36.6937 17.7522H48.0897C49.8869 13.8633 49.198 9.0838 46.0222 5.87802H46.0229ZM10.5801 20.7283L28.3015 38.6164L46.0229 20.7283C46.3793 20.3687 46.7094 19.9836 47.0107 19.5759H36.2932C35.9305 19.5759 35.4057 19.4073 35.2559 19.0732L33.8904 16.0414L29.5654 28.3428C29.4352 28.7142 29.0874 28.9636 28.6961 28.9642H28.6941C28.3034 28.9642 27.9564 28.7175 27.8235 28.3474L22.5647 13.6487L19.8123 19.5523C19.6599 19.8791 19.5284 20.0425 19.1696 20.0425H9.95823C10.1536 20.2788 10.3613 20.5071 10.5801 20.7283V20.7283Z" fill="none"/>
+              </svg>
+            <h3 class="services-item-title">
+              Your Health
+            </h3>
+            <p class="services-item-descr">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services-item flex">
+            <svg class="services-item-icon" width="42" height="42" view-box="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M41.587 9.89229L34.7582 31.5964L34.9192 32.1083C35.0236 32.4367 35.0622 32.7828 35.0329 33.1263C35.0036 33.4699 34.9069 33.8042 34.7484 34.1099C34.4923 34.606 34.0967 34.9978 33.6098 35.2439L33.604 35.2655L32.0614 40.1677C31.8516 40.8306 31.3895 41.3828 30.7763 41.7033C30.1631 42.0238 29.4488 42.0866 28.7897 41.8779L20.8556 39.3474L12.9215 41.8779C12.2624 42.0866 11.5481 42.0238 10.9349 41.7033C10.3217 41.3828 9.85961 40.8306 9.64986 40.1677L0.122959 9.89294C0.0186924 9.56447 -0.0198456 9.21844 0.00957564 8.87487C0.0389969 8.53131 0.135793 8.19703 0.294363 7.89138C0.451176 7.58465 0.666896 7.31232 0.929017 7.09017C1.19114 6.86803 1.49444 6.70048 1.82135 6.59725L22.1219 0.123348C22.7809 -0.0857532 23.4953 -0.023222 24.1086 0.297234C24.7219 0.61769 25.184 1.16992 25.3936 1.83288L25.4437 1.99169C25.4496 1.993 25.4555 1.99366 25.4607 1.99563L39.8899 6.59791C40.2165 6.70113 40.5196 6.86853 40.7816 7.09044C41.0436 7.31234 41.2593 7.58435 41.4162 7.89072C41.7369 8.51416 41.7975 9.22422 41.587 9.89229V9.89229ZM31.5726 35.9303L23.7336 38.43L29.3137 40.2097C29.5335 40.2798 29.7719 40.2591 29.9765 40.1523C30.1812 40.0455 30.3354 39.8613 30.4053 39.6401L31.5726 35.9303ZM33.2625 32.6373L23.7369 2.36182C23.6673 2.1407 23.5133 1.95644 23.3089 1.84952C23.1045 1.74259 22.8662 1.72174 22.6465 1.79154L2.34664 8.2661C2.12506 8.33632 1.94453 8.48922 1.83765 8.69725C1.78474 8.79916 1.75242 8.91061 1.74258 9.02517C1.73273 9.13973 1.74555 9.25512 1.78029 9.36466L11.3059 39.6394C11.4506 40.0995 11.94 40.3548 12.3969 40.2097L20.5695 37.6031C20.5878 37.5965 20.606 37.59 20.6249 37.5854L32.6968 33.7352C32.9184 33.6649 33.0989 33.512 33.2051 33.304C33.3127 33.0966 33.3329 32.8597 33.2625 32.6366V32.6373ZM31.6071 21.5814L34.8325 11.3308L27.6629 9.04441L31.6071 21.5814ZM39.8729 8.69594C39.8206 8.59393 39.7488 8.50336 39.6615 8.42946C39.5743 8.35557 39.4734 8.29983 39.3646 8.26544L26.0844 4.03L27.0268 7.02316C27.0841 7.02972 27.1415 7.04154 27.1982 7.05991L35.3565 9.66194C35.5742 9.73077 35.7762 9.84236 35.9508 9.99026C36.1254 10.1382 36.2692 10.3194 36.3738 10.5236C36.4796 10.7274 36.5443 10.9503 36.5639 11.1794C36.5836 11.4086 36.558 11.6393 36.4885 11.8584L32.5182 24.4768L33.8464 28.6991L39.9303 9.36335C40 9.14022 39.9798 8.90397 39.8729 8.69594V8.69594ZM20.1648 15.3149C20.5396 15.5093 20.8724 15.7768 21.1439 16.1016C21.4154 16.4265 21.6203 16.8024 21.7465 17.2075C21.8804 17.6311 21.9198 18.0792 21.862 18.5199C21.8043 18.9605 21.6507 19.383 21.4122 19.757L19.3182 23.0521C19.1556 23.3068 18.9322 23.5165 18.6684 23.6618C18.4046 23.8072 18.1089 23.8836 17.8081 23.8842C17.5774 23.8842 17.3467 23.8396 17.1304 23.7503L13.5335 22.2711C13.1247 22.1035 12.7576 21.8472 12.4584 21.5204C12.1592 21.1936 11.9352 20.8044 11.8025 20.3805C11.674 19.9761 11.6264 19.5501 11.6626 19.1271C11.6987 18.7041 11.8178 18.2926 12.013 17.9163C12.2062 17.5388 12.4718 17.2037 12.7944 16.9303C13.117 16.6569 13.4903 16.4507 13.8926 16.3235C14.5885 16.1036 15.3379 16.1276 16.0185 16.3918C16.4237 15.781 17.0227 15.3266 17.7176 15.1029C18.1191 14.9737 18.5422 14.9259 18.9622 14.9623C19.3823 14.9987 19.791 15.1185 20.1648 15.3149V15.3149ZM20.0898 17.7358C20.0318 17.5501 19.9379 17.3778 19.8134 17.2289C19.6889 17.08 19.5363 16.9574 19.3645 16.8682C19.1931 16.7781 19.0056 16.7231 18.813 16.7064C18.6204 16.6897 18.4263 16.7117 18.2422 16.7711C17.9996 16.8476 17.781 16.9866 17.6079 17.1742C17.4349 17.3617 17.3134 17.5915 17.2555 17.8408C17.2203 17.9873 17.1482 18.1223 17.0461 18.2325C16.9439 18.3428 16.8153 18.4246 16.6725 18.4702C16.5298 18.5157 16.3778 18.5234 16.2313 18.4924C16.0847 18.4615 15.9486 18.393 15.836 18.2936C15.6459 18.1235 15.4151 18.0062 15.1664 17.9533C14.9176 17.9004 14.6594 17.9136 14.4172 17.9917C14.2328 18.0503 14.0617 18.1451 13.9139 18.2707C13.7661 18.3963 13.6446 18.5502 13.5563 18.7234C13.4668 18.896 13.4122 19.0848 13.3956 19.2787C13.3791 19.4727 13.4009 19.6681 13.4598 19.8535C13.5739 20.2164 13.8411 20.5078 14.1917 20.6522L17.7879 22.1313C17.7999 22.1366 17.8134 22.1371 17.8257 22.1327C17.8379 22.129 17.8483 22.1211 17.8551 22.1103L19.9491 18.8147C20.1537 18.4931 20.2052 18.1007 20.0905 17.7371L20.0898 17.7358ZM28.7884 26.8623C28.858 27.0812 28.8837 27.3118 28.8641 27.5408C28.8445 27.7699 28.78 27.9927 28.6743 28.1964C28.5697 28.4008 28.4259 28.5822 28.2511 28.7303C28.0764 28.8783 27.8742 28.9899 27.6564 29.0587L13.8431 33.4654C13.4037 33.6047 12.9274 33.563 12.5185 33.3493C12.1096 33.1356 11.8016 32.7675 11.6617 32.3255L5.2227 11.8591C5.15308 11.64 5.12732 11.4093 5.1469 11.1802C5.16647 10.951 5.23101 10.7281 5.33675 10.5243C5.44139 10.3201 5.58518 10.1388 5.75979 9.99091C5.93441 9.84302 6.1364 9.73143 6.35409 9.6626L20.168 5.25654C20.6075 5.11688 21.0841 5.15846 21.4931 5.37216C21.9022 5.58586 22.2103 5.95423 22.35 6.39644L28.7884 26.8623ZM27.1317 27.3905L20.6927 6.92472L14.324 8.95516L6.87808 11.3301L13.3171 31.7959L27.1317 27.3905Z" fill="none"/>
+              </svg>
+            <h3 class="services-item-title">
+              Funeral & Memorial
+            </h3>
+            <p class="services-item-descr">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+          <li class="services-item flex">
+            <svg class="services-item-icon" width="42" height="42" view-box="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M40.1596 33.2808C40.9086 34.0552 41.3293 35.1045 41.3293 36.1985C41.3293 37.2925 40.9086 38.3418 40.1596 39.1162L38.5369 40.7917C38.1662 41.1761 37.7253 41.4808 37.2396 41.6882C36.754 41.8957 36.2334 42.0016 35.7078 42C35.1823 42.0016 34.6617 41.8956 34.1762 41.6882C33.6907 41.4808 33.2499 41.1761 32.8793 40.7917L20.0279 27.5346L18.2354 29.3839C18.2834 29.9796 18.2046 30.579 18.0045 31.14C17.8043 31.701 17.4876 32.21 17.0767 32.6314L15.3693 34.3928C14.9987 34.7772 14.5579 35.0819 14.0724 35.2893C13.5869 35.4967 13.0663 35.6027 12.5409 35.6012C12.0155 35.6026 11.495 35.4966 11.0096 35.2892C10.5243 35.0818 10.0836 34.7771 9.71304 34.3928L1.7876 26.2177C1.03866 25.4434 0.618042 24.3942 0.618042 23.3003C0.618042 22.2065 1.03866 21.1572 1.7876 20.3829L3.49494 18.6215C3.90344 18.1976 4.39687 17.8709 4.94064 17.6644C5.48441 17.4579 6.06538 17.3766 6.64282 17.4261L17.5113 6.21537C17.4645 5.62004 17.5438 5.02134 17.7437 4.46078C17.9435 3.90022 18.2592 3.39122 18.6688 2.96909L20.3755 1.20832C20.746 0.8241 21.1868 0.51948 21.6721 0.31208C22.1575 0.104679 22.6779 -0.00138769 23.2033 1.37075e-05C24.2718 1.37075e-05 25.2764 0.42906 26.0318 1.20832L33.9566 9.38346C34.7054 10.1579 35.1259 11.207 35.1259 12.3008C35.1259 13.3947 34.7054 14.4438 33.9566 15.2182L32.2499 16.9796C31.8413 17.4037 31.3477 17.7304 30.8039 17.9369C30.26 18.1433 29.6789 18.2246 29.1014 18.175L27.3088 20.0243L40.1596 33.2808ZM20.1381 23.122L23.0311 20.1374L25.1981 17.9017L28.4268 14.5714L28.6773 14.8299C28.8828 15.0418 29.1521 15.1478 29.4214 15.1478C29.6907 15.1478 29.96 15.0418 30.1661 14.8299L31.8728 13.0691C31.9705 12.9683 32.0481 12.8486 32.1009 12.7169C32.1538 12.5852 32.181 12.4441 32.181 12.3015C32.181 12.1589 32.1538 12.0178 32.1009 11.886C32.0481 11.7543 31.9705 11.6347 31.8728 11.5339L23.9474 3.35808C23.8498 3.25716 23.7338 3.17713 23.6061 3.12258C23.4784 3.06802 23.3415 3.04002 23.2033 3.04017C22.934 3.04017 22.6647 3.14614 22.4593 3.35808L20.7519 5.11884C20.6541 5.21966 20.5765 5.33937 20.5236 5.47114C20.4706 5.60291 20.4434 5.74416 20.4434 5.8868C20.4434 6.02944 20.4706 6.17068 20.5236 6.30245C20.5765 6.43422 20.6541 6.55394 20.7519 6.65475L21.0024 6.91321L7.31737 21.0297L7.06684 20.7713C6.96921 20.6704 6.85322 20.5903 6.72553 20.5358C6.59785 20.4812 6.46098 20.4532 6.32277 20.4534C6.05346 20.4534 5.78414 20.5593 5.57871 20.7713L3.87199 22.5314C3.77427 22.6322 3.69675 22.7519 3.64387 22.8836C3.59098 23.0153 3.56376 23.1565 3.56376 23.299C3.56376 23.4416 3.59098 23.5828 3.64387 23.7145C3.69675 23.8462 3.77427 23.9659 3.87199 24.0667L11.7968 32.2431C12.0022 32.455 12.2715 32.561 12.5409 32.561C12.8102 32.561 13.0795 32.455 13.2856 32.2431L14.9923 30.4823C15.0901 30.3815 15.1677 30.2618 15.2206 30.13C15.2736 29.9983 15.3008 29.857 15.3008 29.7144C15.3008 29.5717 15.2736 29.4305 15.2206 29.2987C15.1677 29.1669 15.0901 29.0472 14.9923 28.9464L14.7418 28.688L17.9704 25.3577L20.1381 23.122ZM38.0759 35.4312L25.2244 22.1741L22.1116 25.3855L34.9637 38.642C35.1685 38.8539 35.4385 38.9599 35.7078 38.9599C35.9771 38.9599 36.2464 38.8539 36.4518 38.642L38.0759 36.9665C38.1736 36.8657 38.2511 36.746 38.304 36.6143C38.3569 36.4826 38.3841 36.3414 38.3841 36.1988C38.3841 36.0563 38.3569 35.9151 38.304 35.7834C38.2511 35.6517 38.1736 35.532 38.0759 35.4312V35.4312Z" fill="none"/>
+              </svg>
+            <h3 class="services-item-title">
+              Legal & Financial
+            </h3>
+            <p class="services-item-descr">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="articles section-offset" id="articles">
+      <div class="container">
+        <h2 class="title section-title articles-title">Articles</h2>
+        <ul class="articles-list list-reset flex">
+          <li class="articles-item">
+            <article class="blog-preview flex">
+              <a href="#" class="blog-preview-link">
+                <img class="blog-preview-image" src="img/blog-1.jpg" alt="Blog Photo 1">
+                <div class="blog-preview-text">
+                  <time class="blog-preview-time" datetime="2021-11-15 19:30">15 Nov 2021</time>
+                  <h3 class="blog-preview-title">Jurisdiction</h3>
+                  <p class="blog-preview-descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles-item">
+            <article class="blog-preview flex">
+              <a href="#" class="blog-preview-link">
+                <img class="blog-preview-image" src="img/blog-2.jpg" alt="Blog Photo 2">
+                <div class="blog-preview-text">
+                  <time class="blog-preview-time" datetime="2021-11-28 19:30">28 Nov 2021</time>
+                  <h3 class="blog-preview-title">Consulting</h3>
+                  <p class="blog-preview-descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles-item">
+            <article class="blog-preview flex">
+              <a href="#" class="blog-preview-link">
+                <img class="blog-preview-image" src="img/blog-3.jpg" alt="Blog Photo 2">
+                <div class="blog-preview-text blog-text">
+                  <time class="blog-preview-time" datetime="2021-11-29 19:30">29 Nov 2021</time>
+                  <h3 class="blog-preview-title">Rights and obligations</h3>
+                  <p class="blog-preview-descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+          <li class="articles-item">
+            <article class="blog-preview flex">
+              <a href="#" class="blog-preview-link">
+                <img class="blog-preview-image" src="img/blog-4.jpg" alt="Blog Photo 2">
+                <div class="blog-preview-text">
+                  <time class="blog-preview-time" datetime="2021-12-11 19:30">11 Dec 2021</time>
+                  <h3 class="blog-preview-title">Contractors</h3>
+                  <p class="blog-preview-descr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                  </p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="clients section-offset" id="clients">
+      <div class="container">
+        <h2 class="clients-title section-title">Clients</h2>
+        <ul class="clients-list list-reset flex">
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel
+              illum
+              dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui
+              blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-1.jpg" alt="John Armstrong">
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">John Armstrong</div>
+                <span class="clients-post">Customer</span>
+              </div>
+            </div>
+          </li>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel
+              illum
+              dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui
+              blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-2.jpg" alt="Elizabeth Martin">
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">Elizabeth Martin</div>
+                <span class="clients-post">Customer</span>
+              </div>
+            </div>
+          </li>
+          <li class="clients-item flex">
+            <p class="clients-item-descr">
+              Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse molestie consequat, vel
+              illum
+              dolore eu&nbsp;feugiat nulla facilisis at&nbsp;vero eros et&nbsp;accumsan et&nbsp;iusto odio dignissim qui
+              blandit odio dignissim qui blandit molestie consequat.
+            </p>
+            <div class="clients-user flex">
+              <div class="clients-avatar">
+                <img src="img/client-3.jpg" alt="Robin Soutby">
+              </div>
+              <div class="clients-text">
+                <div class="clients-name">Robin Soutby</div>
+                <span class="clients-post">Customer</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts section-offset" id="contacts">
+      <div class="container">
+        <h2 class="contacts-title section-title">
+          Contacts
+        </h2>
+        <address class="contacts-address">
+          <ul class="contacts-list list-reset flex">
+            <li class="contacts-item contacts-item-address flex">
+              <strong class="contacts-item-caption">Visit Us</strong>
+              <p class="contacts-item-text">
+                Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.
+              </p>
+            </li>
+            <li class="contacts-item contacts-item-call flex">
+              <strong class="contacts-item-caption">Call Us</strong>
+              <a href="tel:+79876543210" class="contacts-item-link">+7 (987) 654-32-10</a>
+              <a href="tel:+71234567890" class="contacts-item-link">+7 (123) 456-78-90</a>
+            </li>
+            <li class="contacts-item contacts-item-mail flex">
+              <strong class="contacts-item-caption">Email Us</strong>
+              <a href="mailto:example@example.com" class="contacts-item-link">example@example.com</a>
+              <a href="mailto:support@example.com" class="contacts-item-link">support@example.com</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </section>
+    <section class="join-us section-offset" id="join">
+			<div class="container join-us-container">
+        <h2 class="section-title join-us-title">Join Us</h2>
+        <p class="join-us-descr section-descr">Take control of your paid subscriptions today!</p>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
+          <div class="form-top">
+            <div class="form-left">
+              <input type="text" class="form-input" required name="name" placeholder="Name">
+              <input type="email" class="form-input" required name="e-mail" placeholder="E-mail">
+              <input type="tel" class="form-input" required name="phone" placeholder="Phone">
+              <select name="country" class="form-select">
+                <option value="Country" disabled selected>Country</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Spain">Spain</option>
+                <option value="Spain">Estonia</option>
+              </select>
+            </div>
+            <div class="form-right">
+              <textarea name="comment" class="form-textarea" placeholder="Comment"></textarea>
+            </div>
+          </div>
+					<div class="form-bottom">
+						<div class="form-wrapper">
+							<button class="btn-reset btn form-btn" type="submit">Get Started</button>
+							<label class="form-check">
+								<input type="checkbox" required>
+								I agree with the <a href="#">&nbsp;user agreement</a>
+							</label>
+						</div>
+					</div>
+        </form>
+      </div>
+		</section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container flex">
+      <div class="footer-left flex">
+        <a href="#" class="footer-logo">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+        <small class="footer-copy">
+          Copyright ©2017. All Right Reserved
+        </small>
+      </div>
+      <div class="footer-right flex">
+        <nav class="footer__nav nav" title="Второстепенное меню">
+          <ul class="nav__list list-reset flex">
+            <li class="nav__item">
+              <a href="#" target="_blank" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" target="_blank" class="nav__link">Contact Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" target="_blank" class="nav__link">Privacy Policy</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" target="_blank" class="nav__link">Terms Condition</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social list-reset flex">
+          <li class="social-item"><a href="#" class="social-link social-link-tw">
+            <svg width="18" height="14" view-box="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17.719 1.65632C17.0672 1.93749 16.3672 2.12756 15.6312 2.213C16.3824 1.77569 16.9578 1.08271 17.2295 0.257952C16.516 0.66998 15.7351 0.960048 14.9207 1.11556C14.258 0.428779 13.313 0 12.2675 0C10.2607 0 8.63311 1.58169 8.63311 3.53391C8.63311 3.81052 8.66516 4.08038 8.72676 4.33947C5.70575 4.19186 3.02744 2.78497 1.2347 0.647183C0.921659 1.16929 0.742478 1.77633 0.742478 2.42402C0.742478 3.64991 1.38427 4.73153 2.35946 5.36512C1.78217 5.34773 1.21754 5.19623 0.712779 4.9233V4.96795C0.712779 6.68033 1.96554 8.10817 3.6285 8.4329C3.32302 8.51427 3.00243 8.55679 2.67076 8.55679C2.43627 8.55679 2.20876 8.53521 1.98651 8.49457C2.44908 9.89809 3.7915 10.9197 5.38164 10.9486C4.13761 11.8967 2.57008 12.4619 0.867562 12.4619C0.574324 12.4619 0.284511 12.4449 0 12.4115C1.60887 13.4145 3.51914 14 5.57194 14C12.2576 14 15.914 8.61508 15.914 3.94522C15.914 3.79191 15.9105 3.63974 15.9029 3.48812C16.6153 2.98716 17.2303 2.36688 17.719 1.65632Z"
+                />
+            </svg>
+          </a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-linkedin">
+            <svg width="17" height="16" view-box="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M3.85973 15.999V5.20386H0.215035V15.999H3.85973ZM2.03785 3.72907C3.30882 3.72907 4.09994 2.90013 4.09994 1.86422C4.07626 0.804959 3.30887 -0.000976562 2.06197 -0.000976562C0.815269 -0.000976562 0 0.804975 0 1.86422C0 2.90018 0.790923 3.72907 2.01406 3.72907H2.03774H2.03785ZM5.87706 15.999H9.52175V9.97048C9.52175 9.64784 9.54543 9.32554 9.64168 9.0949C9.90516 8.45027 10.5049 7.78262 11.5117 7.78262C12.8305 7.78262 13.3582 8.77258 13.3582 10.2238V15.999H17.0026V9.8091C17.0026 6.49325 15.2045 4.95042 12.8065 4.95042C10.8404 4.95042 9.9771 6.03237 9.49751 6.76928H9.52184V5.20363H5.87714C5.92497 6.21659 5.87714 15.9988 5.87714 15.9988L5.87706 15.999Z"
+                  />
+              </g>
+              <defs>
+                <clippath id="clip0">
+                  <rect width="17" height="16" fill="white" />
+                </clippath>
+              </defs>
+            </svg>
+          </a></li>
+          <li class="social-item"><a href="#" class="social-link social-link-mail">
+            <svg width="24" height="18" view-box="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.4 0.5H21.6C22.6747 0.5 23.5 1.31855 23.5 2.25V15.75C23.5 16.6814 22.6747 17.5 21.6 17.5H2.4C1.32525 17.5 0.5 16.6814 0.5 15.75V2.25C0.5 1.31855 1.32525 0.5 2.4 0.5Z"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M22.8478 1.0625L12 9.93794L1.15222 1.0625" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
